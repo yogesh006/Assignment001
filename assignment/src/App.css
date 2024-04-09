@@ -1,0 +1,33 @@
+
+/* table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+} */
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: grey;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.prev-button{
+  background-color: darkgray;
+  color: white;
+}
+.next-button{
+  background-color: darkgray;
+  color: white;
+}
